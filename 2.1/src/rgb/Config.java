@@ -1,4 +1,4 @@
-package singleton;
+package rgb;
 
 import org.json.JSONObject;
 import java.io.BufferedReader;
@@ -35,7 +35,7 @@ public class Config {
     }
 
     private void loadConfig() {
-        try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\Steff\\Desktop\\t3\\src\\singleton\\configuration.json\"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("C://Users//Steff//Desktop//t3//2.1//src//rgb//configuration.json"))) {
             StringBuilder jsonContent = new StringBuilder();
             String line;
             while ((line = reader.readLine()) != null) {
